@@ -9,7 +9,7 @@ function toggleNav () {
         navelems[i].style.padding = "2em 0em 0em 0em";
       }
     document.getElementById('name_page').style.margin = "0.5em 0em 0.3em 0em";
-    document.getElementById('footer_copyright').style.paddingTop = "3.5em";
+    document.getElementById('footer_copyright').style.paddingTop = "3em";
     }
     else {
     nav.style.display = "";
