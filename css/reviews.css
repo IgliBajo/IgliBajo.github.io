@@ -143,7 +143,7 @@ footer {
 
 } 
 
-@media ( max-width: 500px ) { 
+@media ( max-width: 550px ) { 
 
 	.navbar {
 		padding: 1.6em;
@@ -160,8 +160,8 @@ footer {
 	}
 	
 	.book_img {
-	max-width: 17em;
-	max-height: 31em;
+	max-width: 23em;
+	max-height: 42em;
 	width: auto;
 	height: auto;
 	}  
