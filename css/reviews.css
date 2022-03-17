@@ -68,7 +68,7 @@ body {
 }
 
 .book_img {
-	max-width: 45em;
+	max-width: 35em;
 	max-height: 45em;
 	width: auto;
 	height: auto;
@@ -102,7 +102,7 @@ footer {
 @media (max-width: 1170px) {
 
 .book_img {
-	max-width: 30em;
+	max-width: 23em;
 	max-height: 30em;
 	width: auto;
 	height: auto;
