@@ -158,5 +158,12 @@ footer {
 		display: block;
 		color: white;
 	}
+	
+	.book_img {
+	max-width: 17em;
+	max-height: 31em;
+	width: auto;
+	height: auto;
+	}  
 
 }
