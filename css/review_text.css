@@ -159,6 +159,8 @@ footer {
         float: none;
         padding-left: 2rem;
         padding-right: 2rem;
+        width: 45%;
+        height: auto;
     }    
     
     .container {
