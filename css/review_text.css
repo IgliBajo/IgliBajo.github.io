@@ -156,8 +156,7 @@ footer {
 @media ( max-width: 500px ) { 
 
      .other-media-container {
-        padding-left: 2rem;
-        padding-right: 5rem;
+        text-align: center;
     }    
     
     .container {
