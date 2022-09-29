@@ -156,10 +156,6 @@ footer {
 @media ( max-width: 500px ) { 
 
      .other-media-container {
-        width: auto;
-        height: auto;
-        padding-left: 0rem;
-        padding-right: 0rem;
         margin-left: 0rem;
         margin-right: 0rem;
     }    
@@ -168,5 +164,18 @@ footer {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    
+}
+
+@media ( max-width: 400px ) { 
+
+     .other-media-container {
+        width: auto;
+        height: auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }    
     
 }
