@@ -156,8 +156,8 @@ footer {
 @media ( max-width: 500px ) { 
 
      .other-media-container {
-        margin-left: 0rem;
-        margin-right: 0rem;
+       width: auto;
+        height: auto;
     }    
     
     .container {
