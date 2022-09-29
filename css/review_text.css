@@ -172,10 +172,7 @@ footer {
      .other-media-container {
         width: auto;
         height: auto;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin-left: -1rem;
     }    
     
 }
