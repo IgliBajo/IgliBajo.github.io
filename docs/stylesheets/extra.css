@@ -253,8 +253,8 @@ details[open] summary {
 
 .about-grid {
     display: grid;
-    grid-template-columns: 1fr 1.8fr;
-    gap: 2.5rem;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -264,7 +264,7 @@ details[open] summary {
 
 .summary-grid {
     display: grid;
-    grid-template-columns: 1.1fr 1.5fr;
+    grid-template-columns: 1.25fr 1.5fr;
     gap: 20px;
     align-items: center;
 }
@@ -493,4 +493,27 @@ details[open] summary {
 
 .work-info details p, .research-info details p {
     font-size: 0.75rem;
+}
+
+@media (min-width: 991px) {
+  .md-main__inner.md-grid {
+    max-width: 80rem;               /* wider than Material default */
+    width: calc(100% - 8rem);
+    margin-left: 5rem;
+    grid-template-columns: auto 1fr;
+  }
+}
+
+.fa, .fas, .far, .fal, .fab {
+  color: #1e5aa8; /* pick your blue */
+}
+
+.cv-frame{
+    width:100%;
+    max-width:816px;                 /* ≈ A4 width */
+    height:calc(100vh - 160px);      /* leave space for heading + button */
+    min-height:600px;
+    border:none;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
 }

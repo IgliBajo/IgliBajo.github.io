@@ -1,9 +1,10 @@
-site_name: 'Igli Bajo <br><small><i>PhD Candidate in Finance at UZH and SFI&nbsp;</i></small>'
+site_name: 'Igli Bajo <br><small><i>PhD Candidate in Finance at the University of Zurich and SFI&nbsp;</i></small>'
 
 nav:
   - About: about/index.md
   - Research: research/index.md
   - Teaching: teaching/index.md
+  - CV: cv/index.md
 
 theme:
   name: material
